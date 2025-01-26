@@ -199,3 +199,39 @@
         }
       }
     },  
+    "node_modules/@angular-devkit/build-webpack": {
+      "version": "0.1702.1",
+      "resolved": "https://registry.npmjs.org/@angular-devkit/build-webpack/-/build-webpack-0.1702.1.tgz",
+      "integrity": "sha512-cmtGn8IYqruHuq1yPYEA17tLDTGmMhDPLagAbjZPVAjTpwCwC28H6sRXyhLTiSpzXdXUgROTO6bSXTvtJyyDSA==",
+      "dev": true,
+      "dependencies": {
+        "@angular-devkit/architect": "0.1702.1",
+        "rxjs": "7.8.1"
+      },
+      "engines": {
+        "node": "^18.13.0 || >=20.9.0",
+        "npm": "^6.11.0 || ^7.5.6 || >=8.0.0",
+        "yarn": ">= 1.13.0"
+      },
+      "peerDependencies": {
+        "webpack": "^5.30.0",
+        "webpack-dev-server": "^4.0.0"
+      }
+    },
+    "node_modules/@angular-devkit/core": {
+      "version": "17.2.1",
+      "resolved": "https://registry.npmjs.org/@angular-devkit/core/-/core-17.2.1.tgz",
+      "integrity": "sha512-4jWG7akd5wVxjKkLKDT1zUTyLJeBP5mDmGUPooZ6zVHy39X6htYC+BV3uu/T6gVrD4FyONMDezedpBOrQPtZ6A==",
+      "dependencies": {
+        "ajv": "8.12.0",
+        "ajv-formats": "2.1.1",
+        "jsonc-parser": "3.2.1",
+        "picomatch": "4.0.1",
+        "rxjs": "7.8.1",
+        "source-map": "0.7.4"
+      },
+      "engines": {
+        "node": "^18.13.0 || >=20.9.0",
+        "npm": "^6.11.0 || ^7.5.6 || >=8.0.0",
+        "yarn": ">= 1.13.0"
+      },
