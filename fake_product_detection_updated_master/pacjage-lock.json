@@ -162,4 +162,40 @@
         "protractor": "^7.0.0",
         "tailwindcss": "^2.0.0 || ^3.0.0",
         "typescript": ">=5.2 <5.4"
-      },  
+      },
+      "peerDependenciesMeta": {
+        "@angular/localize": {
+          "optional": true
+        },
+        "@angular/platform-server": {
+          "optional": true
+        },
+        "@angular/service-worker": {
+          "optional": true
+        },
+        "@web/test-runner": {
+          "optional": true
+        },
+        "browser-sync": {
+          "optional": true
+        },
+        "jest": {
+          "optional": true
+        },
+        "jest-environment-jsdom": {
+          "optional": true
+        },
+        "karma": {
+          "optional": true
+        },
+        "ng-packagr": {
+          "optional": true
+        },
+        "protractor": {
+          "optional": true
+        },
+        "tailwindcss": {
+          "optional": true
+        }
+      }
+    },  
