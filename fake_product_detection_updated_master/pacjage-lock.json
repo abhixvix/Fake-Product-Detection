@@ -348,3 +348,58 @@
       "dependencies": {
         "tslib": "^2.3.0"
       },
+      "engines": {
+        "node": "^18.13.0 || >=20.9.0"
+      },
+      "peerDependencies": {
+        "@angular/core": "17.2.2"
+      },
+      "peerDependenciesMeta": {
+        "@angular/core": {
+          "optional": true
+        }
+      }
+    },
+    "node_modules/@angular/compiler-cli": {
+      "version": "17.2.2",
+      "resolved": "https://registry.npmjs.org/@angular/compiler-cli/-/compiler-cli-17.2.2.tgz",
+      "integrity": "sha512-tFfbamdLhn8R30/aKxhXNG6CwelJOpVxfUnTizb7pWUJ/UQ4py0xzJp7s0QzKjR1lpRAq3rPtsE3f9BbcHD1HA==",
+      "dev": true,
+      "dependencies": {
+        "@babel/core": "7.23.9",
+        "@jridgewell/sourcemap-codec": "^1.4.14",
+        "chokidar": "^3.0.0",
+        "convert-source-map": "^1.5.1",
+        "reflect-metadata": "^0.2.0",
+        "semver": "^7.0.0",
+        "tslib": "^2.3.0",
+        "yargs": "^17.2.1"
+      },
+      "bin": {
+        "ng-xi18n": "bundles/src/bin/ng_xi18n.js",
+        "ngc": "bundles/src/bin/ngc.js",
+        "ngcc": "bundles/ngcc/index.js"
+      },
+      "engines": {
+        "node": "^18.13.0 || >=20.9.0"
+      },
+      "peerDependencies": {
+        "@angular/compiler": "17.2.2",
+        "typescript": ">=5.2 <5.4"
+      }
+    },
+    "node_modules/@angular/core": {
+      "version": "17.2.2",
+      "resolved": "https://registry.npmjs.org/@angular/core/-/core-17.2.2.tgz",
+      "integrity": "sha512-jXnrOVsA9b34PJN383EOss3ejd5+xUTeijuUy5njPRXpxMxrGjV5gkk0lSxsALRxw2ICax2tMoGmHXfXO1x9gw==",
+      "dependencies": {
+        "tslib": "^2.3.0"
+      },
+      "engines": {
+        "node": "^18.13.0 || >=20.9.0"
+      },
+      "peerDependencies": {
+        "rxjs": "^6.5.3 || ^7.4.0",
+        "zone.js": "~0.14.0"
+      }
+    },
