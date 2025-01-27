@@ -235,3 +235,60 @@
         "npm": "^6.11.0 || ^7.5.6 || >=8.0.0",
         "yarn": ">= 1.13.0"
       },
+      "peerDependencies": {
+        "chokidar": "^3.5.2"
+      },
+      "peerDependenciesMeta": {
+        "chokidar": {
+          "optional": true
+        }
+      }
+    },
+    "node_modules/@angular-devkit/schematics": {
+      "version": "17.2.1",
+      "resolved": "https://registry.npmjs.org/@angular-devkit/schematics/-/schematics-17.2.1.tgz",
+      "integrity": "sha512-PgbjZgMSk1Q8QAH4mAx/dHDzPjNnXFONsNmwo80JPp6eJcBN0pODbchulFYdY7kPry07sNtGGWpQeWtdPAZHPw==",
+      "dependencies": {
+        "@angular-devkit/core": "17.2.1",
+        "jsonc-parser": "3.2.1",
+        "magic-string": "0.30.7",
+        "ora": "5.4.1",
+        "rxjs": "7.8.1"
+      },
+      "engines": {
+        "node": "^18.13.0 || >=20.9.0",
+        "npm": "^6.11.0 || ^7.5.6 || >=8.0.0",
+        "yarn": ">= 1.13.0"
+      }
+    },
+    "node_modules/@angular/animations": {
+      "version": "17.2.2",
+      "resolved": "https://registry.npmjs.org/@angular/animations/-/animations-17.2.2.tgz",
+      "integrity": "sha512-ENr35pDVslioJO8zBLo1QClzC7NqTc0Du36UMtWkw3cg+QRLnAZ7zfju5w0O8K7Z3omDtFzgVSPfyS0VDkrXPQ==",
+      "dependencies": {
+        "tslib": "^2.3.0"
+      },
+      "engines": {
+        "node": "^18.13.0 || >=20.9.0"
+      },
+      "peerDependencies": {
+        "@angular/core": "17.2.2"
+      }
+    },
+    "node_modules/@angular/cdk": {
+      "version": "17.2.1",
+      "resolved": "https://registry.npmjs.org/@angular/cdk/-/cdk-17.2.1.tgz",
+      "integrity": "sha512-9cWV9MyWnpImns/WQApgoQBKblXA9Zx2CpCkDNipRgx9RyvGrvCLjpEfwQI4HjpPAQDI1trsbeJKihzgz4tFgw==",
+      "peer": true,
+      "dependencies": {
+        "tslib": "^2.3.0"
+      },
+      "optionalDependencies": {
+        "parse5": "^7.1.2"
+      },
+      "peerDependencies": {
+        "@angular/common": "^17.0.0 || ^18.0.0",
+        "@angular/core": "^17.0.0 || ^18.0.0",
+        "rxjs": "^6.5.3 || ^7.4.0"
+      }
+    },
