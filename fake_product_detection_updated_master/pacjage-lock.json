@@ -654,3 +654,51 @@
         "@material/typography": "15.0.0-canary.7f224ddd4.0",
         "tslib": "^2.3.0"
       },
+      "peerDependencies": {
+        "@angular/animations": "^17.0.0 || ^18.0.0",
+        "@angular/cdk": "17.2.1",
+        "@angular/common": "^17.0.0 || ^18.0.0",
+        "@angular/core": "^17.0.0 || ^18.0.0",
+        "@angular/forms": "^17.0.0 || ^18.0.0",
+        "@angular/platform-browser": "^17.0.0 || ^18.0.0",
+        "rxjs": "^6.5.3 || ^7.4.0"
+      }
+    },
+    "node_modules/@angular/platform-browser": {
+      "version": "17.2.2",
+      "resolved": "https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-17.2.2.tgz",
+      "integrity": "sha512-6AZhQfZpo/apiRKwhy6es1RpoxgCXMR4y7Eo7GvVHpMKBwioWwP2H+qg83ed2xv0/GXIyqZsHjpEjsLPE83uyw==",
+      "dependencies": {
+        "tslib": "^2.3.0"
+      },
+      "engines": {
+        "node": "^18.13.0 || >=20.9.0"
+      },
+      "peerDependencies": {
+        "@angular/animations": "17.2.2",
+        "@angular/common": "17.2.2",
+        "@angular/core": "17.2.2"
+      },
+      "peerDependenciesMeta": {
+        "@angular/animations": {
+          "optional": true
+        }
+      }
+    },
+    "node_modules/@angular/platform-browser-dynamic": {
+      "version": "17.2.2",
+      "resolved": "https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-17.2.2.tgz",
+      "integrity": "sha512-I52zbDSic4LB0yhCFUEBZKg9QkLKVUCGTco0XFHNRy3EF54Jvs0uWBqG79egsuXmyBNQY0E3op9eqhhn6Mnwbw==",
+      "dependencies": {
+        "tslib": "^2.3.0"
+      },
+      "engines": {
+        "node": "^18.13.0 || >=20.9.0"
+      },
+      "peerDependencies": {
+        "@angular/common": "17.2.2",
+        "@angular/compiler": "17.2.2",
+        "@angular/core": "17.2.2",
+        "@angular/platform-browser": "17.2.2"
+      }
+    },
