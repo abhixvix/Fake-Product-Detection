@@ -702,3 +702,64 @@
         "@angular/platform-browser": "17.2.2"
       }
     },
+    "node_modules/@angular/router": {
+      "version": "17.2.2",
+      "resolved": "https://registry.npmjs.org/@angular/router/-/router-17.2.2.tgz",
+      "integrity": "sha512-3mT2+qBF8urFeY6eZVZX5bmAdK9ojJRZi7yB9ocpieE1Jdd/1NYCfIsQxJk032syEGc2NJftijTzuNiflLzlTA==",
+      "dependencies": {
+        "tslib": "^2.3.0"
+      },
+      "engines": {
+        "node": "^18.13.0 || >=20.9.0"
+      },
+      "peerDependencies": {
+        "@angular/common": "17.2.2",
+        "@angular/core": "17.2.2",
+        "@angular/platform-browser": "17.2.2",
+        "rxjs": "^6.5.3 || ^7.4.0"
+      }
+    },
+    "node_modules/@babel/code-frame": {
+      "version": "7.23.5",
+      "resolved": "https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.23.5.tgz",
+      "integrity": "sha512-CgH3s1a96LipHCmSUmYFPwY7MNx8C3avkq7i4Wl3cfa662ldtUe4VM1TPXX70pfmrlWTb6jLqTYrZyT2ZTJBgA==",
+      "dev": true,
+      "dependencies": {
+        "@babel/highlight": "^7.23.4",
+        "chalk": "^2.4.2"
+      },
+      "engines": {
+        "node": ">=6.9.0"
+      }
+    },
+    "node_modules/@babel/compat-data": {
+      "version": "7.23.5",
+      "resolved": "https://registry.npmjs.org/@babel/compat-data/-/compat-data-7.23.5.tgz",
+      "integrity": "sha512-uU27kfDRlhfKl+w1U6vp16IuvSLtjAxdArVXPa9BvLkrr7CYIsxH5adpHObeAGY/41+syctUWOZ140a2Rvkgjw==",
+      "dev": true,
+      "engines": {
+        "node": ">=6.9.0"
+      }
+    },
+    "node_modules/@babel/core": {
+      "version": "7.23.9",
+      "resolved": "https://registry.npmjs.org/@babel/core/-/core-7.23.9.tgz",
+      "integrity": "sha512-5q0175NOjddqpvvzU+kDiSOAk4PfdO6FvwCWoQ6RO7rTzEe8vlo+4HVfcnAREhD4npMs0e9uZypjTwzZPCf/cw==",
+      "dev": true,
+      "dependencies": {
+        "@ampproject/remapping": "^2.2.0",
+        "@babel/code-frame": "^7.23.5",
+        "@babel/generator": "^7.23.6",
+        "@babel/helper-compilation-targets": "^7.23.6",
+        "@babel/helper-module-transforms": "^7.23.3",
+        "@babel/helpers": "^7.23.9",
+        "@babel/parser": "^7.23.9",
+        "@babel/template": "^7.23.9",
+        "@babel/traverse": "^7.23.9",
+        "@babel/types": "^7.23.9",
+        "convert-source-map": "^2.0.0",
+        "debug": "^4.1.0",
+        "gensync": "^1.0.0-beta.2",
+        "json5": "^2.2.3",
+        "semver": "^6.3.1"
+      },
