@@ -1762,3 +1762,49 @@
         "@babel/core": "^7.0.0-0"
       }
     },
+    "node_modules/@babel/plugin-transform-literals": {
+      "version": "7.23.3",
+      "resolved": "https://registry.npmjs.org/@babel/plugin-transform-literals/-/plugin-transform-literals-7.23.3.tgz",
+      "integrity": "sha512-wZ0PIXRxnwZvl9AYpqNUxpZ5BiTGrYt7kueGQ+N5FiQ7RCOD4cm8iShd6S6ggfVIWaJf2EMk8eRzAh52RfP4rQ==",
+      "dev": true,
+      "dependencies": {
+        "@babel/helper-plugin-utils": "^7.22.5"
+      },
+      "engines": {
+        "node": ">=6.9.0"
+      },
+      "peerDependencies": {
+        "@babel/core": "^7.0.0-0"
+      }
+    },
+    "node_modules/@babel/plugin-transform-logical-assignment-operators": {
+      "version": "7.23.4",
+      "resolved": "https://registry.npmjs.org/@babel/plugin-transform-logical-assignment-operators/-/plugin-transform-logical-assignment-operators-7.23.4.tgz",
+      "integrity": "sha512-Mc/ALf1rmZTP4JKKEhUwiORU+vcfarFVLfcFiolKUo6sewoxSEgl36ak5t+4WamRsNr6nzjZXQjM35WsU+9vbg==",
+      "dev": true,
+      "dependencies": {
+        "@babel/helper-plugin-utils": "^7.22.5",
+        "@babel/plugin-syntax-logical-assignment-operators": "^7.10.4"
+      },
+      "engines": {
+        "node": ">=6.9.0"
+      },
+      "peerDependencies": {
+        "@babel/core": "^7.0.0-0"
+      }
+    },
+    "node_modules/@babel/plugin-transform-member-expression-literals": {
+      "version": "7.23.3",
+      "resolved": "https://registry.npmjs.org/@babel/plugin-transform-member-expression-literals/-/plugin-transform-member-expression-literals-7.23.3.tgz",
+      "integrity": "sha512-sC3LdDBDi5x96LA+Ytekz2ZPk8i/Ck+DEuDbRAll5rknJ5XRTSaPKEYwomLcs1AA8wg9b3KjIQRsnApj+q51Ag==",
+      "dev": true,
+      "dependencies": {
+        "@babel/helper-plugin-utils": "^7.22.5"
+      },
+      "engines": {
+        "node": ">=6.9.0"
+      },
+      "peerDependencies": {
+        "@babel/core": "^7.0.0-0"
+      }
+    },
