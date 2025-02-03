@@ -3349,3 +3349,80 @@
         "@firebase/app": "0.x"
       }
     },
+    "node_modules/@firebase/storage-compat": {
+      "version": "0.3.4",
+      "resolved": "https://registry.npmjs.org/@firebase/storage-compat/-/storage-compat-0.3.4.tgz",
+      "integrity": "sha512-Y0m5e2gS/wB9Ioth2X/Sgz76vcxvqgQrCmfa9qwhss/N31kxY2Gks6Frv0nrE18AjVfcSmcfDitqUwxcMOTRSg==",
+      "dependencies": {
+        "@firebase/component": "0.6.5",
+        "@firebase/storage": "0.12.1",
+        "@firebase/storage-types": "0.8.0",
+        "@firebase/util": "1.9.4",
+        "tslib": "^2.1.0"
+      },
+      "peerDependencies": {
+        "@firebase/app-compat": "0.x"
+      }
+    },
+    "node_modules/@firebase/storage-types": {
+      "version": "0.8.0",
+      "resolved": "https://registry.npmjs.org/@firebase/storage-types/-/storage-types-0.8.0.tgz",
+      "integrity": "sha512-isRHcGrTs9kITJC0AVehHfpraWFui39MPaU7Eo8QfWlqW7YPymBmRgjDrlOgFdURh6Cdeg07zmkLP5tzTKRSpg==",
+      "peerDependencies": {
+        "@firebase/app-types": "0.x",
+        "@firebase/util": "1.x"
+      }
+    },
+    "node_modules/@firebase/storage/node_modules/undici": {
+      "version": "5.26.5",
+      "resolved": "https://registry.npmjs.org/undici/-/undici-5.26.5.tgz",
+      "integrity": "sha512-cSb4bPFd5qgR7qr2jYAi0hlX9n5YKK2ONKkLFkxl+v/9BvC0sOpZjBHDBSXc5lWAf5ty9oZdRXytBIHzgUcerw==",
+      "dependencies": {
+        "@fastify/busboy": "^2.0.0"
+      },
+      "engines": {
+        "node": ">=14.0"
+      }
+    },
+    "node_modules/@firebase/util": {
+      "version": "1.9.4",
+      "resolved": "https://registry.npmjs.org/@firebase/util/-/util-1.9.4.tgz",
+      "integrity": "sha512-WLonYmS1FGHT97TsUmRN3qnTh5TeeoJp1Gg5fithzuAgdZOUtsYECfy7/noQ3llaguios8r5BuXSEiK82+UrxQ==",
+      "dependencies": {
+        "tslib": "^2.1.0"
+      }
+    },
+    "node_modules/@firebase/webchannel-wrapper": {
+      "version": "0.10.5",
+      "resolved": "https://registry.npmjs.org/@firebase/webchannel-wrapper/-/webchannel-wrapper-0.10.5.tgz",
+      "integrity": "sha512-eSkJsnhBWv5kCTSU1tSUVl9mpFu+5NXXunZc83le8GMjMlsWwQArSc7cJJ4yl+aDFY0NGLi0AjZWMn1axOrkRg=="
+    },
+    "node_modules/@grpc/grpc-js": {
+      "version": "1.9.14",
+      "resolved": "https://registry.npmjs.org/@grpc/grpc-js/-/grpc-js-1.9.14.tgz",
+      "integrity": "sha512-nOpuzZ2G3IuMFN+UPPpKrC6NsLmWsTqSsm66IRfnBt1D4pwTqE27lmbpcPM+l2Ua4gE7PfjRHI6uedAy7hoXUw==",
+      "dependencies": {
+        "@grpc/proto-loader": "^0.7.8",
+        "@types/node": ">=12.12.47"
+      },
+      "engines": {
+        "node": "^8.13.0 || >=10.10.0"
+      }
+    },
+    "node_modules/@grpc/proto-loader": {
+      "version": "0.7.10",
+      "resolved": "https://registry.npmjs.org/@grpc/proto-loader/-/proto-loader-0.7.10.tgz",
+      "integrity": "sha512-CAqDfoaQ8ykFd9zqBDn4k6iWT9loLAlc2ETmDFS9JCD70gDcnA4L3AFEo2iV7KyAtAAHFW9ftq1Fz+Vsgq80RQ==",
+      "dependencies": {
+        "lodash.camelcase": "^4.3.0",
+        "long": "^5.0.0",
+        "protobufjs": "^7.2.4",
+        "yargs": "^17.7.2"
+      },
+      "bin": {
+        "proto-loader-gen-types": "build/bin/proto-loader-gen-types.js"
+      },
+      "engines": {
+        "node": ">=6"
+      }
+    },
