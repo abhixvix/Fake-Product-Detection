@@ -3220,3 +3220,61 @@
         "@firebase/app-types": "0.x"
       }
     },
+    "node_modules/@firebase/logger": {
+      "version": "0.4.0",
+      "resolved": "https://registry.npmjs.org/@firebase/logger/-/logger-0.4.0.tgz",
+      "integrity": "sha512-eRKSeykumZ5+cJPdxxJRgAC3G5NknY2GwEbKfymdnXtnT0Ucm4pspfR6GT4MUQEDuJwRVbVcSx85kgJulMoFFA==",
+      "dependencies": {
+        "tslib": "^2.1.0"
+      }
+    },
+    "node_modules/@firebase/messaging": {
+      "version": "0.12.6",
+      "resolved": "https://registry.npmjs.org/@firebase/messaging/-/messaging-0.12.6.tgz",
+      "integrity": "sha512-IORsPp9IPWq4j4yEhTOZ6GAGi3gQwGc+4yexmTAlya+qeBRSdRnJg2iIU/aj+tcKDQYr9RQuQPgHHOdFIx//vA==",
+      "dependencies": {
+        "@firebase/component": "0.6.5",
+        "@firebase/installations": "0.6.5",
+        "@firebase/messaging-interop-types": "0.2.0",
+        "@firebase/util": "1.9.4",
+        "idb": "7.1.1",
+        "tslib": "^2.1.0"
+      },
+      "peerDependencies": {
+        "@firebase/app": "0.x"
+      }
+    },
+    "node_modules/@firebase/messaging-compat": {
+      "version": "0.2.6",
+      "resolved": "https://registry.npmjs.org/@firebase/messaging-compat/-/messaging-compat-0.2.6.tgz",
+      "integrity": "sha512-Q2xC1s4L7Vpss7P7Gy6GuIS+xmJrf/vm9+gX76IK1Bo1TjoKwleCLHt1LHkPz5Rvqg5pTgzzI8qqPhBpZosFCg==",
+      "dependencies": {
+        "@firebase/component": "0.6.5",
+        "@firebase/messaging": "0.12.6",
+        "@firebase/util": "1.9.4",
+        "tslib": "^2.1.0"
+      },
+      "peerDependencies": {
+        "@firebase/app-compat": "0.x"
+      }
+    },
+    "node_modules/@firebase/messaging-interop-types": {
+      "version": "0.2.0",
+      "resolved": "https://registry.npmjs.org/@firebase/messaging-interop-types/-/messaging-interop-types-0.2.0.tgz",
+      "integrity": "sha512-ujA8dcRuVeBixGR9CtegfpU4YmZf3Lt7QYkcj693FFannwNuZgfAYaTmbJ40dtjB81SAu6tbFPL9YLNT15KmOQ=="
+    },
+    "node_modules/@firebase/performance": {
+      "version": "0.6.5",
+      "resolved": "https://registry.npmjs.org/@firebase/performance/-/performance-0.6.5.tgz",
+      "integrity": "sha512-OzAGcWhOqEFH9GdwUuY0oC5FSlnMejcnmSAhR+EjpI7exdDvixyLyCR4txjSHYNTbumrFBG+EP8GO11CNXRaJA==",
+      "dependencies": {
+        "@firebase/component": "0.6.5",
+        "@firebase/installations": "0.6.5",
+        "@firebase/logger": "0.4.0",
+        "@firebase/util": "1.9.4",
+        "tslib": "^2.1.0"
+      },
+      "peerDependencies": {
+        "@firebase/app": "0.x"
+      }
+    },
