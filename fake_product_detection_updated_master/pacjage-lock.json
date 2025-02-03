@@ -3100,3 +3100,55 @@
         "@firebase/app": "0.x"
       }
     },
+    "node_modules/@firebase/firestore-compat": {
+      "version": "0.3.25",
+      "resolved": "https://registry.npmjs.org/@firebase/firestore-compat/-/firestore-compat-0.3.25.tgz",
+      "integrity": "sha512-+xI7WmsgZCBhMn/+uhDKcg+lsOUJ9FJyt5PGTzkFPbCsozWfeQZ7eVnfPh0rMkUOf0yIQ924RIe04gwvEIbcoQ==",
+      "dependencies": {
+        "@firebase/component": "0.6.5",
+        "@firebase/firestore": "4.4.2",
+        "@firebase/firestore-types": "3.0.0",
+        "@firebase/util": "1.9.4",
+        "tslib": "^2.1.0"
+      },
+      "peerDependencies": {
+        "@firebase/app-compat": "0.x"
+      }
+    },
+    "node_modules/@firebase/firestore-types": {
+      "version": "3.0.0",
+      "resolved": "https://registry.npmjs.org/@firebase/firestore-types/-/firestore-types-3.0.0.tgz",
+      "integrity": "sha512-Meg4cIezHo9zLamw0ymFYBD4SMjLb+ZXIbuN7T7ddXN6MGoICmOTq3/ltdCGoDCS2u+H1XJs2u/cYp75jsX9Qw==",
+      "peerDependencies": {
+        "@firebase/app-types": "0.x",
+        "@firebase/util": "1.x"
+      }
+    },
+    "node_modules/@firebase/firestore/node_modules/undici": {
+      "version": "5.26.5",
+      "resolved": "https://registry.npmjs.org/undici/-/undici-5.26.5.tgz",
+      "integrity": "sha512-cSb4bPFd5qgR7qr2jYAi0hlX9n5YKK2ONKkLFkxl+v/9BvC0sOpZjBHDBSXc5lWAf5ty9oZdRXytBIHzgUcerw==",
+      "dependencies": {
+        "@fastify/busboy": "^2.0.0"
+      },
+      "engines": {
+        "node": ">=14.0"
+      }
+    },
+    "node_modules/@firebase/functions": {
+      "version": "0.11.1",
+      "resolved": "https://registry.npmjs.org/@firebase/functions/-/functions-0.11.1.tgz",
+      "integrity": "sha512-3uUa1hB79Gmy6E1gHTfzoHeZolBeHc/I/n3+lOCDe6BOos9AHmzRjKygcFE/7VA2FJjitCE0K+OHI6+OuoY8fQ==",
+      "dependencies": {
+        "@firebase/app-check-interop-types": "0.3.0",
+        "@firebase/auth-interop-types": "0.2.1",
+        "@firebase/component": "0.6.5",
+        "@firebase/messaging-interop-types": "0.2.0",
+        "@firebase/util": "1.9.4",
+        "tslib": "^2.1.0",
+        "undici": "5.26.5"
+      },
+      "peerDependencies": {
+        "@firebase/app": "0.x"
+      }
+    },
