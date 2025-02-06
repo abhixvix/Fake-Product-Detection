@@ -3857,3 +3857,70 @@
         "tslib": "^2.1.0"
       }
     },
+    "node_modules/@material/fab": {
+      "version": "15.0.0-canary.7f224ddd4.0",
+      "resolved": "https://registry.npmjs.org/@material/fab/-/fab-15.0.0-canary.7f224ddd4.0.tgz",
+      "integrity": "sha512-4h76QrzfZTcPdd+awDPZ4Q0YdSqsXQnS540TPtyXUJ/5G99V6VwGpjMPIxAsW0y+pmI9UkLL/srrMaJec+7r4Q==",
+      "dependencies": {
+        "@material/animation": "15.0.0-canary.7f224ddd4.0",
+        "@material/dom": "15.0.0-canary.7f224ddd4.0",
+        "@material/elevation": "15.0.0-canary.7f224ddd4.0",
+        "@material/feature-targeting": "15.0.0-canary.7f224ddd4.0",
+        "@material/focus-ring": "15.0.0-canary.7f224ddd4.0",
+        "@material/ripple": "15.0.0-canary.7f224ddd4.0",
+        "@material/rtl": "15.0.0-canary.7f224ddd4.0",
+        "@material/shape": "15.0.0-canary.7f224ddd4.0",
+        "@material/theme": "15.0.0-canary.7f224ddd4.0",
+        "@material/tokens": "15.0.0-canary.7f224ddd4.0",
+        "@material/touch-target": "15.0.0-canary.7f224ddd4.0",
+        "@material/typography": "15.0.0-canary.7f224ddd4.0",
+        "tslib": "^2.1.0"
+      }
+    },
+    "node_modules/@material/feature-targeting": {
+      "version": "15.0.0-canary.7f224ddd4.0",
+      "resolved": "https://registry.npmjs.org/@material/feature-targeting/-/feature-targeting-15.0.0-canary.7f224ddd4.0.tgz",
+      "integrity": "sha512-SAjtxYh6YlKZriU83diDEQ7jNSP2MnxKsER0TvFeyG1vX/DWsUyYDOIJTOEa9K1N+fgJEBkNK8hY55QhQaspew==",
+      "dependencies": {
+        "tslib": "^2.1.0"
+      }
+    },
+    "node_modules/@material/floating-label": {
+      "version": "15.0.0-canary.7f224ddd4.0",
+      "resolved": "https://registry.npmjs.org/@material/floating-label/-/floating-label-15.0.0-canary.7f224ddd4.0.tgz",
+      "integrity": "sha512-0KMo5ijjYaEHPiZ2pCVIcbaTS2LycvH9zEhEMKwPPGssBCX7iz5ffYQFk7e5yrQand1r3jnQQgYfHAwtykArnQ==",
+      "dependencies": {
+        "@material/animation": "15.0.0-canary.7f224ddd4.0",
+        "@material/base": "15.0.0-canary.7f224ddd4.0",
+        "@material/dom": "15.0.0-canary.7f224ddd4.0",
+        "@material/feature-targeting": "15.0.0-canary.7f224ddd4.0",
+        "@material/rtl": "15.0.0-canary.7f224ddd4.0",
+        "@material/theme": "15.0.0-canary.7f224ddd4.0",
+        "@material/typography": "15.0.0-canary.7f224ddd4.0",
+        "tslib": "^2.1.0"
+      }
+    },
+    "node_modules/@material/focus-ring": {
+      "version": "15.0.0-canary.7f224ddd4.0",
+      "resolved": "https://registry.npmjs.org/@material/focus-ring/-/focus-ring-15.0.0-canary.7f224ddd4.0.tgz",
+      "integrity": "sha512-Jmg1nltq4J6S6A10EGMZnvufrvU3YTi+8R8ZD9lkSbun0Fm2TVdICQt/Auyi6An9zP66oQN6c31eqO6KfIPsDg==",
+      "dependencies": {
+        "@material/dom": "15.0.0-canary.7f224ddd4.0",
+        "@material/feature-targeting": "15.0.0-canary.7f224ddd4.0",
+        "@material/rtl": "15.0.0-canary.7f224ddd4.0"
+      }
+    },
+    "node_modules/@material/form-field": {
+      "version": "15.0.0-canary.7f224ddd4.0",
+      "resolved": "https://registry.npmjs.org/@material/form-field/-/form-field-15.0.0-canary.7f224ddd4.0.tgz",
+      "integrity": "sha512-fEPWgDQEPJ6WF7hNnIStxucHR9LE4DoDSMqCsGWS2Yu+NLZYLuCEecgR0UqQsl1EQdNRaFh8VH93KuxGd2hiPg==",
+      "dependencies": {
+        "@material/base": "15.0.0-canary.7f224ddd4.0",
+        "@material/feature-targeting": "15.0.0-canary.7f224ddd4.0",
+        "@material/ripple": "15.0.0-canary.7f224ddd4.0",
+        "@material/rtl": "15.0.0-canary.7f224ddd4.0",
+        "@material/theme": "15.0.0-canary.7f224ddd4.0",
+        "@material/typography": "15.0.0-canary.7f224ddd4.0",
+        "tslib": "^2.1.0"
+      }
+    },
