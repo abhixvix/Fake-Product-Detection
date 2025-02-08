@@ -4299,3 +4299,68 @@
         "tslib": "^2.1.0"
       }
     },
+    "node_modules/@material/theme": {
+      "version": "15.0.0-canary.7f224ddd4.0",
+      "resolved": "https://registry.npmjs.org/@material/theme/-/theme-15.0.0-canary.7f224ddd4.0.tgz",
+      "integrity": "sha512-hs45hJoE9yVnoVOcsN1jklyOa51U4lzWsEnQEuJTPOk2+0HqCQ0yv/q0InpSnm2i69fNSyZC60+8HADZGF8ugQ==",
+      "dependencies": {
+        "@material/feature-targeting": "15.0.0-canary.7f224ddd4.0",
+        "tslib": "^2.1.0"
+      }
+    },
+    "node_modules/@material/tokens": {
+      "version": "15.0.0-canary.7f224ddd4.0",
+      "resolved": "https://registry.npmjs.org/@material/tokens/-/tokens-15.0.0-canary.7f224ddd4.0.tgz",
+      "integrity": "sha512-r9TDoicmcT7FhUXC4eYMFnt9TZsz0G8T3wXvkKncLppYvZ517gPyD/1+yhuGfGOxAzxTrM66S/oEc1fFE2q4hw==",
+      "dependencies": {
+        "@material/elevation": "15.0.0-canary.7f224ddd4.0"
+      }
+    },
+    "node_modules/@material/tooltip": {
+      "version": "15.0.0-canary.7f224ddd4.0",
+      "resolved": "https://registry.npmjs.org/@material/tooltip/-/tooltip-15.0.0-canary.7f224ddd4.0.tgz",
+      "integrity": "sha512-8qNk3pmPLTnam3XYC1sZuplQXW9xLn4Z4MI3D+U17Q7pfNZfoOugGr+d2cLA9yWAEjVJYB0mj8Yu86+udo4N9w==",
+      "dependencies": {
+        "@material/animation": "15.0.0-canary.7f224ddd4.0",
+        "@material/base": "15.0.0-canary.7f224ddd4.0",
+        "@material/button": "15.0.0-canary.7f224ddd4.0",
+        "@material/dom": "15.0.0-canary.7f224ddd4.0",
+        "@material/elevation": "15.0.0-canary.7f224ddd4.0",
+        "@material/feature-targeting": "15.0.0-canary.7f224ddd4.0",
+        "@material/rtl": "15.0.0-canary.7f224ddd4.0",
+        "@material/shape": "15.0.0-canary.7f224ddd4.0",
+        "@material/theme": "15.0.0-canary.7f224ddd4.0",
+        "@material/tokens": "15.0.0-canary.7f224ddd4.0",
+        "@material/typography": "15.0.0-canary.7f224ddd4.0",
+        "safevalues": "^0.3.4",
+        "tslib": "^2.1.0"
+      }
+    },
+    "node_modules/@material/top-app-bar": {
+      "version": "15.0.0-canary.7f224ddd4.0",
+      "resolved": "https://registry.npmjs.org/@material/top-app-bar/-/top-app-bar-15.0.0-canary.7f224ddd4.0.tgz",
+      "integrity": "sha512-SARR5/ClYT4CLe9qAXakbr0i0cMY0V3V4pe3ElIJPfL2Z2c4wGR1mTR8m2LxU1MfGKK8aRoUdtfKaxWejp+eNA==",
+      "dependencies": {
+        "@material/animation": "15.0.0-canary.7f224ddd4.0",
+        "@material/base": "15.0.0-canary.7f224ddd4.0",
+        "@material/elevation": "15.0.0-canary.7f224ddd4.0",
+        "@material/ripple": "15.0.0-canary.7f224ddd4.0",
+        "@material/rtl": "15.0.0-canary.7f224ddd4.0",
+        "@material/shape": "15.0.0-canary.7f224ddd4.0",
+        "@material/theme": "15.0.0-canary.7f224ddd4.0",
+        "@material/typography": "15.0.0-canary.7f224ddd4.0",
+        "tslib": "^2.1.0"
+      }
+    },
+    "node_modules/@material/touch-target": {
+      "version": "15.0.0-canary.7f224ddd4.0",
+      "resolved": "https://registry.npmjs.org/@material/touch-target/-/touch-target-15.0.0-canary.7f224ddd4.0.tgz",
+      "integrity": "sha512-BJo/wFKHPYLGsRaIpd7vsQwKr02LtO2e89Psv0on/p0OephlNIgeB9dD9W+bQmaeZsZ6liKSKRl6wJWDiK71PA==",
+      "dependencies": {
+        "@material/base": "15.0.0-canary.7f224ddd4.0",
+        "@material/feature-targeting": "15.0.0-canary.7f224ddd4.0",
+        "@material/rtl": "15.0.0-canary.7f224ddd4.0",
+        "@material/theme": "15.0.0-canary.7f224ddd4.0",
+        "tslib": "^2.1.0"
+      }
+    },
