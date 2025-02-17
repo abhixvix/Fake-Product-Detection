@@ -8468,4 +8468,49 @@
         }
       ]
     },
+    "node_modules/ignore": {
+      "version": "5.3.1",
+      "resolved": "https://registry.npmjs.org/ignore/-/ignore-5.3.1.tgz",
+      "integrity": "sha512-5Fytz/IraMjqpwfd34ke28PTVMjZjJG2MPn5t7OE4eUCUNf8BAa7b5WUS9/Qvr6mwOQS7Mk6vdsMno5he+T8Xw==",
+      "dev": true,
+      "engines": {
+        "node": ">= 4"
+      }
+    },
+    "node_modules/ignore-walk": {
+      "version": "6.0.4",
+      "resolved": "https://registry.npmjs.org/ignore-walk/-/ignore-walk-6.0.4.tgz",
+      "integrity": "sha512-t7sv42WkwFkyKbivUCglsQW5YWMskWtbEf4MNKX5u/CCWHKSPzN4FtBQGsQZgCLbxOzpVlcbWVK5KB3auIOjSw==",
+      "dev": true,
+      "dependencies": {
+        "minimatch": "^9.0.0"
+      },
+      "engines": {
+        "node": "^14.17.0 || ^16.13.0 || >=18.0.0"
+      }
+    },
+    "node_modules/ignore-walk/node_modules/brace-expansion": {
+      "version": "2.0.1",
+      "resolved": "https://registry.npmjs.org/brace-expansion/-/brace-expansion-2.0.1.tgz",
+      "integrity": "sha512-XnAIvQ8eM+kC6aULx6wuQiwVsnzsi9d3WxzV3FpWTGA19F621kwdbsAcFKXgKUHZWsy+mY6iL1sHTxWEFCytDA==",
+      "dev": true,
+      "dependencies": {
+        "balanced-match": "^1.0.0"
+      }
+    },
+    "node_modules/ignore-walk/node_modules/minimatch": {
+      "version": "9.0.3",
+      "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-9.0.3.tgz",
+      "integrity": "sha512-RHiac9mvaRw0x3AYRgDC1CxAP7HTcNrrECeA8YYJeWnpo+2Q5CegtZjaotWTWxDG3UeGA1coE05iH1mPjT/2mg==",
+      "dev": true,
+      "dependencies": {
+        "brace-expansion": "^2.0.1"
+      },
+      "engines": {
+        "node": ">=16 || 14 >=14.17"
+      },
+      "funding": {
+        "url": "https://github.com/sponsors/isaacs"
+      }
+    },
 
