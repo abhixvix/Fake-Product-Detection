@@ -9871,4 +9871,54 @@
         "url": "https://github.com/sponsors/ljharb"
       }
     },
+    "node_modules/minipass": {
+      "version": "7.0.4",
+      "resolved": "https://registry.npmjs.org/minipass/-/minipass-7.0.4.tgz",
+      "integrity": "sha512-jYofLM5Dam9279rdkWzqHozUo4ybjdZmCsDHePy5V/PbBcVMiSZR97gmAy45aqi8CK1lG2ECd356FU86avfwUQ==",
+      "dev": true,
+      "engines": {
+        "node": ">=16 || 14 >=14.17"
+      }
+    },
+    "node_modules/minipass-collect": {
+      "version": "2.0.1",
+      "resolved": "https://registry.npmjs.org/minipass-collect/-/minipass-collect-2.0.1.tgz",
+      "integrity": "sha512-D7V8PO9oaz7PWGLbCACuI1qEOsq7UKfLotx/C0Aet43fCUB/wfQ7DYeq2oR/svFJGYDHPr38SHATeaj/ZoKHKw==",
+      "dev": true,
+      "dependencies": {
+        "minipass": "^7.0.3"
+      },
+      "engines": {
+        "node": ">=16 || 14 >=14.17"
+      }
+    },
+    "node_modules/minipass-fetch": {
+      "version": "3.0.4",
+      "resolved": "https://registry.npmjs.org/minipass-fetch/-/minipass-fetch-3.0.4.tgz",
+      "integrity": "sha512-jHAqnA728uUpIaFm7NWsCnqKT6UqZz7GcI/bDpPATuwYyKwJwW0remxSCxUlKiEty+eopHGa3oc8WxgQ1FFJqg==",
+      "dev": true,
+      "dependencies": {
+        "minipass": "^7.0.3",
+        "minipass-sized": "^1.0.3",
+        "minizlib": "^2.1.2"
+      },
+      "engines": {
+        "node": "^14.17.0 || ^16.13.0 || >=18.0.0"
+      },
+      "optionalDependencies": {
+        "encoding": "^0.1.13"
+      }
+    },
+    "node_modules/minipass-flush": {
+      "version": "1.0.5",
+      "resolved": "https://registry.npmjs.org/minipass-flush/-/minipass-flush-1.0.5.tgz",
+      "integrity": "sha512-JmQSYYpPUqX5Jyn1mXaRwOda1uQ8HP5KAT/oDSLCzt1BYRhQU0/hDtsB1ufZfEEzMZ9aAVmsBw8+FWsIXlClWw==",
+      "dev": true,
+      "dependencies": {
+        "minipass": "^3.0.0"
+      },
+      "engines": {
+        "node": ">= 8"
+      }
+    },
 
