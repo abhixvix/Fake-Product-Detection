@@ -10427,4 +10427,49 @@
         "node": "^16.14.0 || >=18.0.0"
       }
     },
+    "node_modules/npm-packlist": {
+      "version": "8.0.2",
+      "resolved": "https://registry.npmjs.org/npm-packlist/-/npm-packlist-8.0.2.tgz",
+      "integrity": "sha512-shYrPFIS/JLP4oQmAwDyk5HcyysKW8/JLTEA32S0Z5TzvpaeeX2yMFfoK1fjEBnCBvVyIB/Jj/GBFdm0wsgzbA==",
+      "dev": true,
+      "dependencies": {
+        "ignore-walk": "^6.0.4"
+      },
+      "engines": {
+        "node": "^14.17.0 || ^16.13.0 || >=18.0.0"
+      }
+    },
+    "node_modules/npm-pick-manifest": {
+      "version": "9.0.0",
+      "resolved": "https://registry.npmjs.org/npm-pick-manifest/-/npm-pick-manifest-9.0.0.tgz",
+      "integrity": "sha512-VfvRSs/b6n9ol4Qb+bDwNGUXutpy76x6MARw/XssevE0TnctIKcmklJZM5Z7nqs5z5aW+0S63pgCNbpkUNNXBg==",
+      "dev": true,
+      "dependencies": {
+        "npm-install-checks": "^6.0.0",
+        "npm-normalize-package-bin": "^3.0.0",
+        "npm-package-arg": "^11.0.0",
+        "semver": "^7.3.5"
+      },
+      "engines": {
+        "node": "^16.14.0 || >=18.0.0"
+      }
+    },
+    "node_modules/npm-registry-fetch": {
+      "version": "16.1.0",
+      "resolved": "https://registry.npmjs.org/npm-registry-fetch/-/npm-registry-fetch-16.1.0.tgz",
+      "integrity": "sha512-PQCELXKt8Azvxnt5Y85GseQDJJlglTFM9L9U9gkv2y4e9s0k3GVDdOx3YoB6gm2Do0hlkzC39iCGXby+Wve1Bw==",
+      "dev": true,
+      "dependencies": {
+        "make-fetch-happen": "^13.0.0",
+        "minipass": "^7.0.2",
+        "minipass-fetch": "^3.0.0",
+        "minipass-json-stream": "^1.0.1",
+        "minizlib": "^2.1.2",
+        "npm-package-arg": "^11.0.0",
+        "proc-log": "^3.0.0"
+      },
+      "engines": {
+        "node": "^16.14.0 || >=18.0.0"
+      }
+    },
 
