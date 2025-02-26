@@ -11105,4 +11105,47 @@
         "node": "^10 || ^12 || >=14"
       }
     },
+    "node_modules/postcss-loader": {
+      "version": "8.1.0",
+      "resolved": "https://registry.npmjs.org/postcss-loader/-/postcss-loader-8.1.0.tgz",
+      "integrity": "sha512-AbperNcX3rlob7Ay7A/HQcrofug1caABBkopoFeOQMspZBqcqj6giYn1Bwey/0uiOPAcR+NQD0I2HC7rXzk91w==",
+      "dev": true,
+      "dependencies": {
+        "cosmiconfig": "^9.0.0",
+        "jiti": "^1.20.0",
+        "semver": "^7.5.4"
+      },
+      "engines": {
+        "node": ">= 18.12.0"
+      },
+      "funding": {
+        "type": "opencollective",
+        "url": "https://opencollective.com/webpack"
+      },
+      "peerDependencies": {
+        "@rspack/core": "0.x || 1.x",
+        "postcss": "^7.0.0 || ^8.0.1",
+        "webpack": "^5.0.0"
+      },
+      "peerDependenciesMeta": {
+        "@rspack/core": {
+          "optional": true
+        },
+        "webpack": {
+          "optional": true
+        }
+      }
+    },
+    "node_modules/postcss-modules-extract-imports": {
+      "version": "3.0.0",
+      "resolved": "https://registry.npmjs.org/postcss-modules-extract-imports/-/postcss-modules-extract-imports-3.0.0.tgz",
+      "integrity": "sha512-bdHleFnP3kZ4NYDhuGlVK+CMrQ/pqUm8bx/oGL93K6gVwiclvX5x0n76fYMKuIGKzlABOy13zsvqjb0f92TEXw==",
+      "dev": true,
+      "engines": {
+        "node": "^10 || ^12 || >= 14"
+      },
+      "peerDependencies": {
+        "postcss": "^8.1.0"
+      }
+    },
 
