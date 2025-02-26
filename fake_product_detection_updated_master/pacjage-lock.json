@@ -10999,4 +10999,35 @@
         "url": "https://github.com/sponsors/sindresorhus"
       }
     },
+    "node_modules/pkg-dir/node_modules/find-up": {
+      "version": "6.3.0",
+      "resolved": "https://registry.npmjs.org/find-up/-/find-up-6.3.0.tgz",
+      "integrity": "sha512-v2ZsoEuVHYy8ZIlYqwPe/39Cy+cFDzp4dXPaxNvkEuouymu+2Jbz0PxpKarJHYJTmv2HWT3O382qY8l4jMWthw==",
+      "dev": true,
+      "dependencies": {
+        "locate-path": "^7.1.0",
+        "path-exists": "^5.0.0"
+      },
+      "engines": {
+        "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+      },
+      "funding": {
+        "url": "https://github.com/sponsors/sindresorhus"
+      }
+    },
+    "node_modules/pkg-dir/node_modules/locate-path": {
+      "version": "7.2.0",
+      "resolved": "https://registry.npmjs.org/locate-path/-/locate-path-7.2.0.tgz",
+      "integrity": "sha512-gvVijfZvn7R+2qyPX8mAuKcFGDf6Nc61GdvGafQsHL0sBIxfKzA+usWn4GFC/bk+QdwPUD4kWFJLhElipq+0VA==",
+      "dev": true,
+      "dependencies": {
+        "p-locate": "^6.0.0"
+      },
+      "engines": {
+        "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+      },
+      "funding": {
+        "url": "https://github.com/sponsors/sindresorhus"
+      }
+    },
 
