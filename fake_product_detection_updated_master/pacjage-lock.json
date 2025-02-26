@@ -10948,4 +10948,55 @@
         "node": ">=8"
       }
     },
+    "node_modules/picocolors": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz",
+      "integrity": "sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==",
+      "dev": true
+    },
+    "node_modules/picomatch": {
+      "version": "4.0.1",
+      "resolved": "https://registry.npmjs.org/picomatch/-/picomatch-4.0.1.tgz",
+      "integrity": "sha512-xUXwsxNjwTQ8K3GnT4pCJm+xq3RUPQbmkYJTP5aFIfNIvbcc/4MUxgBaaRSZJ6yGJZiGSyYlM6MzwTsRk8SYCg==",
+      "engines": {
+        "node": ">=12"
+      },
+      "funding": {
+        "url": "https://github.com/sponsors/jonschlinkert"
+      }
+    },
+    "node_modules/pify": {
+      "version": "4.0.1",
+      "resolved": "https://registry.npmjs.org/pify/-/pify-4.0.1.tgz",
+      "integrity": "sha512-uB80kBFb/tfd68bVleG9T5GGsGPjJrLAUpR5PZIrhBnIaRTQRjqdJSsIKkOP6OAIFbj7GOrcudc5pNjZ+geV2g==",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=6"
+      }
+    },
+    "node_modules/piscina": {
+      "version": "4.3.1",
+      "resolved": "https://registry.npmjs.org/piscina/-/piscina-4.3.1.tgz",
+      "integrity": "sha512-MBj0QYm3hJQ/C/wIXTN1OCYC8uQ4BBJ4LVele2P4ZwVQAH04vkk8E1SpDbuemLAL1dZorbuOob9rYqJeWCcCRg==",
+      "dev": true,
+      "optionalDependencies": {
+        "nice-napi": "^1.0.2"
+      }
+    },
+    "node_modules/pkg-dir": {
+      "version": "7.0.0",
+      "resolved": "https://registry.npmjs.org/pkg-dir/-/pkg-dir-7.0.0.tgz",
+      "integrity": "sha512-Ie9z/WINcxxLp27BKOCHGde4ITq9UklYKDzVo1nhk5sqGEXU3FpkwP5GM2voTGJkGd9B3Otl+Q4uwSOeSUtOBA==",
+      "dev": true,
+      "dependencies": {
+        "find-up": "^6.3.0"
+      },
+      "engines": {
+        "node": ">=14.16"
+      },
+      "funding": {
+        "url": "https://github.com/sponsors/sindresorhus"
+      }
+    },
 
