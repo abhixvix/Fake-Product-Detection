@@ -12429,3 +12429,34 @@
         "npm": ">= 3.0.0"
       }
     },
+    "node_modules/socks-proxy-agent": {
+      "version": "8.0.2",
+      "resolved": "https://registry.npmjs.org/socks-proxy-agent/-/socks-proxy-agent-8.0.2.tgz",
+      "integrity": "sha512-8zuqoLv1aP/66PHF5TqwJ7Czm3Yv32urJQHrVyhD7mmA6d61Zv8cIXQYPTWwmg6qlupnPvs/QKDmfa4P/qct2g==",
+      "dev": true,
+      "dependencies": {
+        "agent-base": "^7.0.2",
+        "debug": "^4.3.4",
+        "socks": "^2.7.1"
+      },
+      "engines": {
+        "node": ">= 14"
+      }
+    },
+    "node_modules/source-map": {
+      "version": "0.7.4",
+      "resolved": "https://registry.npmjs.org/source-map/-/source-map-0.7.4.tgz",
+      "integrity": "sha512-l3BikUxvPOcn5E74dZiq5BGsTb5yEwhaTSzccU6t4sDOH8NWJCstKO5QT2CvtFoK6F0saL7p9xHAqHOlCPJygA==",
+      "engines": {
+        "node": ">= 8"
+      }
+    },
+    "node_modules/source-map-js": {
+      "version": "1.0.2",
+      "resolved": "https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz",
+      "integrity": "sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==",
+      "dev": true,
+      "engines": {
+        "node": ">=0.10.0"
+      }
+    },
