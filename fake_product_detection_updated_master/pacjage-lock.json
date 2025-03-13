@@ -13080,4 +13080,42 @@
         "node": "*"
       }
     },
-    
+    "node_modules/undici": {
+      "version": "6.6.2",
+      "resolved": "https://registry.npmjs.org/undici/-/undici-6.6.2.tgz",
+      "integrity": "sha512-vSqvUE5skSxQJ5sztTZ/CdeJb1Wq0Hf44hlYMciqHghvz+K88U0l7D6u1VsndoFgskDcnU+nG3gYmMzJVzd9Qg==",
+      "dev": true,
+      "dependencies": {
+        "@fastify/busboy": "^2.0.0"
+      },
+      "engines": {
+        "node": ">=18.0"
+      }
+    },
+    "node_modules/undici-types": {
+      "version": "5.26.5",
+      "resolved": "https://registry.npmjs.org/undici-types/-/undici-types-5.26.5.tgz",
+      "integrity": "sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA=="
+    },
+    "node_modules/unicode-canonical-property-names-ecmascript": {
+      "version": "2.0.0",
+      "resolved": "https://registry.npmjs.org/unicode-canonical-property-names-ecmascript/-/unicode-canonical-property-names-ecmascript-2.0.0.tgz",
+      "integrity": "sha512-yY5PpDlfVIU5+y/BSCxAJRBIS1Zc2dDG3Ujq+sR0U+JjUevW2JhocOF+soROYDSaAezOzOKuyyixhD6mBknSmQ==",
+      "dev": true,
+      "engines": {
+        "node": ">=4"
+      }
+    },
+    "node_modules/unicode-match-property-ecmascript": {
+      "version": "2.0.0",
+      "resolved": "https://registry.npmjs.org/unicode-match-property-ecmascript/-/unicode-match-property-ecmascript-2.0.0.tgz",
+      "integrity": "sha512-5kaZCrbp5mmbz5ulBkDkbY0SsPOjKqVS35VpL9ulMPfSl0J0Xsm+9Evphv9CoIZFwre7aJoa94AY6seMKGVN5Q==",
+      "dev": true,
+      "dependencies": {
+        "unicode-canonical-property-names-ecmascript": "^2.0.0",
+        "unicode-property-aliases-ecmascript": "^2.0.0"
+      },
+      "engines": {
+        "node": ">=4"
+      }
+    },
