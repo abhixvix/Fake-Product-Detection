@@ -13743,3 +13743,38 @@
         "node": ">=0.10.0"
       }
     },
+    "node_modules/watchpack": {
+      "version": "2.4.0",
+      "resolved": "https://registry.npmjs.org/watchpack/-/watchpack-2.4.0.tgz",
+      "integrity": "sha512-Lcvm7MGST/4fup+ifyKi2hjyIAwcdI4HRgtvTpIUxBRhB+RFtUh8XtDOxUfctVCnhVi+QQj49i91OyvzkJl6cg==",
+      "dev": true,
+      "dependencies": {
+        "glob-to-regexp": "^0.4.1",
+        "graceful-fs": "^4.1.2"
+      },
+      "engines": {
+        "node": ">=10.13.0"
+      }
+    },
+    "node_modules/wbuf": {
+      "version": "1.7.3",
+      "resolved": "https://registry.npmjs.org/wbuf/-/wbuf-1.7.3.tgz",
+      "integrity": "sha512-O84QOnr0icsbFGLS0O3bI5FswxzRr8/gHwWkDlQFskhSPryQXvrTMxjxGP4+iWYoauLoBvfDpkrOauZ+0iZpDA==",
+      "dev": true,
+      "dependencies": {
+        "minimalistic-assert": "^1.0.0"
+      }
+    },
+    "node_modules/wcwidth": {
+      "version": "1.0.1",
+      "resolved": "https://registry.npmjs.org/wcwidth/-/wcwidth-1.0.1.tgz",
+      "integrity": "sha512-XHPEwS0q6TaxcvG85+8EYkbiCux2XtWG2mkc47Ng2A77BQu9+DqIOJldST4HgPkuea7dvKSj5VgX3P1d4rW8Tg==",
+      "dependencies": {
+        "defaults": "^1.0.3"
+      }
+    },
+    "node_modules/webidl-conversions": {
+      "version": "3.0.1",
+      "resolved": "https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz",
+      "integrity": "sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ=="
+    },
