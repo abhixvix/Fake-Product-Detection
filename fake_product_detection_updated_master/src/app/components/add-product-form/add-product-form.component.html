@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Navbar and Form Example</title>
+</head>
+<body>
+
+  <div class="form-container">
+    <form action="#" class="custom-form">
+
+      <label for="productTitle">Product Title / Name :</label>
+      <input type="text" id="productTitle" [(ngModel)]="productTitle" name="productTitle"><br><br>
+
+      <label for="productId">Product ID:</label>
+      <input type="number" id="productId" [(ngModel)]="productId" name="productId" value="0"><br><br>
+
+      <label for="productModelNo">Product Model No:</label>
+      <input type="text" id="productModelNo" [(ngModel)]="productModelNo" name="productModelNo"  maxlength="10"><br><br>
+
+      <br>
+
+
+      <input type="submit"  (click)="onSubmit()" value="Submit">
+    </form>
+  </div>
+
+
+</body>
+</html>
