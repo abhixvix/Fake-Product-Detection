@@ -1,0 +1,84 @@
+/* .my-dialog-class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+  .image-container h3 {
+    margin: 0 auto; /* Set margin to center horizontally */
+    width: fit-content; /* Limit width to content size */
+  }
+
+  .image-container {
+    text-align: center;
+    padding-top: 20px; /* Add top padding */
+    padding-bottom: 20px; /* Add top padding */
+
+  }
+  
+  .image-wrapper {
+    border: 1px solid #ccc; /* Add border for image */
+    padding: 5px; /* Add padding for image */
+    display: inline-block; /* Ensure image wrapper only takes necessary space */
+  }
+  
+  .image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: block; /* Ensure image doesn't leave empty space */
+  }
+  
+  .buttons {
+    margin-top: 10px;
+  }
+  
+  .buttons a {
+    margin-right: 10px;
+    padding: 8px 16px; /* Add padding for buttons */
+    border: none;
+    cursor: pointer;
+  }
+  
+  .download-button {
+    background-color: #007bff; /* Add color to download button */
+    color: white;
+  }
+  
+  .close-button {
+    background-color: #dc3545; /* Add color to close button */
+    color: white;
+  }
+
+  .download-button-link {
+    padding-left: 2px; /* Add top padding */
+    padding-right: 2px; /* Add top padding */
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .close-button-link {
+    padding-left: 2px; /* Add top padding */
+    padding-right: 2px; /* Add top padding */
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .download-button-link:hover {
+    background-color: #0056b3;
+  }
+
+  .close-button-link:hover {
+    background-color: #ff0019;
+  }
+  
