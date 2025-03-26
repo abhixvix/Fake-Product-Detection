@@ -1,0 +1,15 @@
+<div class="image-container">
+    <h3>{{data.qrString}}</h3>
+
+    <div class="image-wrapper">
+      <!-- //<img [src]="imageUrl" alt="Image" class="image"> -->
+      <qrcode (qrCodeURL)="downloadImage($event)" [qrdata]="qrData"  [elementType]="'canvas'"
+      [errorCorrectionLevel]="'M'"></qrcode>  
+    </div>
+    <div class="buttons">
+      <!-- <button (click)="downloadQrCodeGenerated($event)" class="download-button">Download</button> -->
+      <a [href]="qrcodeDownloadLink" download={{productId}} class="download-button-link">Download File</a>
+      <a (click)="closeDialog()"class="close-button-link">Close</a>
+      <!-- <button (click)="closeDialog()" class="close-button">Close</button> -->
+    </div>
+  </div>
