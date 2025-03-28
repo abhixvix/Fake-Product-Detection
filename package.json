@@ -1,0 +1,17 @@
+{
+  "name": "fake_product_detection_updated-master",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "flask": "^0.2.10",
+    "math.js": "^1.1.46",
+    "node.js": "^0.0.1-security"
+  },
+  "devDependencies": {},
+  "description": ""
+}
